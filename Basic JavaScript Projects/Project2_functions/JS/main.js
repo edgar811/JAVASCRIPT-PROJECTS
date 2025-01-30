@@ -16,3 +16,8 @@ function newSentence() {
     sentence += " my choice to join the Tech Academy!";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
+
+function myMath(x1, x2) {
+    var results = x1 * x2;
+    document.getElementById("math").innerHTML = results;
+}
