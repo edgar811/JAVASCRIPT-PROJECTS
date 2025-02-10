@@ -4,9 +4,11 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale">
         <title>Advanced JavaScript</title>
-        <script src="JavaScript/JavaScript_1.js"></script>
+        <script src="JavaScript/JavaScript_1.js" defer></script>
     </head>
     <body>
+        <canvas id="myCanvas" width="200" height="100" style="border: 5px solid black;"></canvas>
+        <canvas id="myCanvas2" width="200" height="100" style="border: 5px solid black;"></canvas>
         <h1>What is your favorite Pet?</h1>
         <h3>Pick from the list below:</h3>
         <ul>
@@ -21,5 +23,8 @@
         <input id="Pet" type="text">
         <button onclick="pet_Function()">Submit choice!</button>
         <p id="Output"></p>
+
+        <p class="example">This will change!</p>
+        <button onclick="changeText()">Change Text</button>
     </body>
 </html>
