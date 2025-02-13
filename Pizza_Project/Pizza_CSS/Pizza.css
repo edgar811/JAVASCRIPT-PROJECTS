@@ -1,3 +1,24 @@
+body{
+    background-color: blue;  
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: green;
+    font-weight: bolder;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+div{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
 #menuBG {
     width: 400px;
     height: 470px;
@@ -5,7 +26,7 @@
 }
 
 #frmMenu {
-    width: 400px;
+    width: 600px;
     height: 200px;
 }
 
@@ -26,6 +47,12 @@
     width: 200px;
     height: 200px;
     float: right;
+}
+
+.center {
+    width: 200px;
+    height: 200px;
+    float: left;
 }
 
 #showText {
